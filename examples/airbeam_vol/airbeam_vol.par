@@ -1,0 +1,90 @@
+DRIVER
+    ! SET DIRECTORY FOR PYTHON-SCRIPTS/ISIGHT-MODEL
+    script_directory = r'/path/to/<script_directory>'
+    ! GET tosca_distribution.txt FROM PARENT TOSCA DESIGN CYCLE
+    driver.registerModuleHook(ToscaModules.FEM_MODIF, HookTypes.PRE, EventTimes.FIRST, f'"{script_directory}/get_distribution.py"', addIterPert=False)
+END_
+
+FEM_INPUT
+  ID_NAME                = OPTIMIZATION_MODEL
+  FILE                   = airbeam_vol.inp
+END_
+
+DV_TOPO
+  ID_NAME                = design_variables
+  EL_GROUP               = ALL_ELEMENTS
+END_
+
+DVCON_TOPO
+  ID_NAME                = dvcon_frozen
+  EL_GROUP               = frozen_elements
+  CHECK_TYPE             = FROZEN
+END_
+
+DRESP
+  ID_NAME                = DRESP_SUM_ENERGY
+  DEF_TYPE               = SYSTEM
+  TYPE                   = STRAIN_ENERGY
+  UPDATE                 = EVER
+  EL_GROUP               = ALL_ELEMENTS
+  GROUP_OPER             = SUM
+END_
+
+DRESP
+  ID_NAME                = DRESP_VOL_TOPO
+  DEF_TYPE               = SYSTEM
+  TYPE                   = VOLUME
+  UPDATE                 = EVER
+  EL_GROUP               = ALL_ELEMENTS
+  GROUP_OPER             = SUM
+END_
+
+DRESP
+  ID_NAME                = DRESP_DISP1_ABS_MAX
+  TYPE                   = DISP_Y_ABS
+  DEF_TYPE               = SYSTEM
+  NODE                   = 110
+END_
+
+OBJ_FUNC
+  ID_NAME                = min_vol
+  DRESP                  = DRESP_VOL_TOPO
+  TARGET                 = MIN
+END_
+
+CONSTRAINT
+  ID_NAME                = DISP_constraint
+  DRESP                  = DRESP_DISP1_ABS_MAX
+  MAGNITUDE              = ABS
+  LE_VALUE               = 0.06
+END_
+
+OPTIMIZE
+  ID_NAME                = topology_optimization
+  DV                     = design_variables
+  OBJ_FUNC               = min_vol
+  DVCON                  = dvcon_frozen
+  CONSTRAINT             = DISP_constraint
+  STRATEGY               = TOPO_SENSITIVITY
+END_
+
+OPT_PARAM
+  ID_NAME                = OPT_PARAMS
+  OPTIMIZE               = TOPOLOGY_OPTIMIZATION
+  FILTER_RADIUS          = 0
+END_
+
+STOP
+  ID_NAME                = global_stop
+  ITER_MAX               = 0
+END_
+
+USER_FILE
+    ID_NAME     = UF_TOPO_ONF_SENS
+    FORMAT      = ONF
+    EL_GROUP    = ALL_ELEMENTS
+    TYPE        = TOPO_WITH_SENS
+    FILE_NAME   = TP_SENS
+    WRITE       = EVER
+    FILE_OPTION = VAR2
+END_

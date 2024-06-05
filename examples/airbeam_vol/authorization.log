@@ -1,0 +1,551 @@
+(INFO    ) [14:13:01|authorization] TOSCA Software Suite.authorization - version 3DEXPERIENCE R2024x / 3DEXPERIENCE R2024x - build R426 - 20230927T180032Z 64 bit
+(INFO    ) [14:13:01|authorization] Setting up license management system
+(INFO    ) [14:13:01|authorization] Commandline for started application: /usr/SIMULIA/EstProducts/2024/linux_a64/tools/SMApy/python3.10/bin/python "-E" "-u" "/usr/SIMULIA/EstProducts/2024/linux_a64/code/python3.10/lib/SMATsoPyControlMain.pyc" "-j" "airbeam_vol_deterministic.par"
+(INFO    ) [14:13:01|authorization] Waiting for batch process to finish
+(INFO    ) [14:13:01|authorization] Using DS FlexNet licensing with license file 27000@lic.rz.tuhh.de
+(INFO    ) [14:13:01|authorization] Successfully initialized FlexNet client library
+(INFO    ) [14:13:01|authorization] # Listing available licenses...
+(INFO    ) [14:13:01|authorization] +----------------------------------------------------------------------------------------------------------+
+(INFO    ) [14:13:01|authorization] |Features                                                                                                  |
+(INFO    ) [14:13:01|authorization] +----------------------------------------------------------------------------------------------------------+
+(INFO    ) [14:13:01|authorization] abaqus
+(INFO    ) [14:13:01|authorization] abaqus_extended
+(INFO    ) [14:13:01|authorization] ams
+(INFO    ) [14:13:01|authorization] aqua
+(INFO    ) [14:13:01|authorization] cosim_acusolve
+(INFO    ) [14:13:01|authorization] cosim_direct
+(INFO    ) [14:13:01|authorization] cse
+(INFO    ) [14:13:01|authorization] design
+(INFO    ) [14:13:01|authorization] euler_lagrange
+(INFO    ) [14:13:01|authorization] gpgpu
+(INFO    ) [14:13:01|authorization] multiphysics
+(INFO    ) [14:13:01|authorization] parallel
+(INFO    ) [14:13:01|authorization] sw_assoc_import
+(INFO    ) [14:13:01|authorization] catiav5_assoc_import
+(INFO    ) [14:13:01|authorization] catiav5_import
+(INFO    ) [14:13:01|authorization] catiav6_assoc_import
+(INFO    ) [14:13:01|authorization] tomee
+(INFO    ) [14:13:01|authorization] pydriver
+(INFO    ) [14:13:01|authorization] cae
+(INFO    ) [14:13:01|authorization] rtgateway
+(INFO    ) [14:13:01|authorization] gateway
+(INFO    ) [14:13:01|authorization] safe_ex_gui
+(INFO    ) [14:13:01|authorization] cfd
+(INFO    ) [14:13:01|authorization] explicit
+(INFO    ) [14:13:01|authorization] foundation
+(INFO    ) [14:13:01|authorization] simflow
+(INFO    ) [14:13:01|authorization] standard
+(INFO    ) [14:13:01|authorization] cse_token
+(INFO    ) [14:13:01|authorization] safe_ex_engine
+(INFO    ) [14:13:01|authorization] tosca_topo
+(INFO    ) [14:13:01|authorization] tosca_shape
+(INFO    ) [14:13:01|authorization] tosca_bead
+(INFO    ) [14:13:01|authorization] tosca_sizing
+(INFO    ) [14:13:01|authorization] tosca_int_abaqus
+(INFO    ) [14:13:01|authorization] tosca_int_ansys
+(INFO    ) [14:13:01|authorization] tosca_int_nastran
+(INFO    ) [14:13:01|authorization] tosca_adv_nonlinear
+(INFO    ) [14:13:01|authorization] tosca_adv_durability
+(INFO    ) [14:13:01|authorization] tosca_adv_morph
+(INFO    ) [14:13:01|authorization] tosca_smooth
+(INFO    ) [14:13:01|authorization] tosca_report
+(INFO    ) [14:13:01|authorization] tfluid_topo
+(INFO    ) [14:13:01|authorization] tfluid_smooth
+(INFO    ) [14:13:01|authorization] tfluid_parallel
+(INFO    ) [14:13:01|authorization] tfluid_int_ccmp
+(INFO    ) [14:13:01|authorization] tfluid_int_fluent
+(INFO    ) [14:13:01|authorization] +----------------------------------------------------------------------------------------------------------+
+(INFO    ) [14:13:01|authorization] Requesting 5 tokens tosca_topo
+(INFO    ) [14:14:02|authorization] Requesting 2 tokens tosca_report
+(INFO    ) [14:14:02|authorization] Requesting 2 tokens tosca_smooth
+(INFO    ) [14:14:03|authorization] Execution of batch process has finished
+(INFO    ) [14:14:04|authorization] Socket listener successfully stopped
+(INFO    ) [14:16:38|authorization] TOSCA Software Suite.authorization - version 3DEXPERIENCE R2024x / 3DEXPERIENCE R2024x - build R426 - 20230927T180032Z 64 bit
+(INFO    ) [14:16:38|authorization] Setting up license management system
+(INFO    ) [14:16:38|authorization] Commandline for started application: /usr/SIMULIA/EstProducts/2024/linux_a64/tools/SMApy/python3.10/bin/python "-E" "-u" "/usr/SIMULIA/EstProducts/2024/linux_a64/code/python3.10/lib/SMATsoPyControlMain.pyc" "-j" "airbeam_vol_RDO"
+(INFO    ) [14:16:38|authorization] Waiting for batch process to finish
+(INFO    ) [14:16:38|authorization] Using DS FlexNet licensing with license file 27000@lic.rz.tuhh.de
+(INFO    ) [14:16:38|authorization] Successfully initialized FlexNet client library
+(INFO    ) [14:16:38|authorization] # Listing available licenses...
+(INFO    ) [14:16:38|authorization] +----------------------------------------------------------------------------------------------------------+
+(INFO    ) [14:16:38|authorization] |Features                                                                                                  |
+(INFO    ) [14:16:38|authorization] +----------------------------------------------------------------------------------------------------------+
+(INFO    ) [14:16:38|authorization] abaqus
+(INFO    ) [14:16:38|authorization] abaqus_extended
+(INFO    ) [14:16:38|authorization] ams
+(INFO    ) [14:16:38|authorization] aqua
+(INFO    ) [14:16:38|authorization] cosim_acusolve
+(INFO    ) [14:16:38|authorization] cosim_direct
+(INFO    ) [14:16:38|authorization] cse
+(INFO    ) [14:16:38|authorization] design
+(INFO    ) [14:16:38|authorization] euler_lagrange
+(INFO    ) [14:16:38|authorization] gpgpu
+(INFO    ) [14:16:38|authorization] multiphysics
+(INFO    ) [14:16:38|authorization] parallel
+(INFO    ) [14:16:38|authorization] sw_assoc_import
+(INFO    ) [14:16:38|authorization] catiav5_assoc_import
+(INFO    ) [14:16:38|authorization] catiav5_import
+(INFO    ) [14:16:38|authorization] catiav6_assoc_import
+(INFO    ) [14:16:38|authorization] tomee
+(INFO    ) [14:16:38|authorization] pydriver
+(INFO    ) [14:16:38|authorization] cae
+(INFO    ) [14:16:38|authorization] rtgateway
+(INFO    ) [14:16:38|authorization] gateway
+(INFO    ) [14:16:38|authorization] safe_ex_gui
+(INFO    ) [14:16:38|authorization] cfd
+(INFO    ) [14:16:38|authorization] explicit
+(INFO    ) [14:16:38|authorization] foundation
+(INFO    ) [14:16:38|authorization] simflow
+(INFO    ) [14:16:38|authorization] standard
+(INFO    ) [14:16:38|authorization] cse_token
+(INFO    ) [14:16:38|authorization] safe_ex_engine
+(INFO    ) [14:16:38|authorization] tosca_topo
+(INFO    ) [14:16:38|authorization] tosca_shape
+(INFO    ) [14:16:38|authorization] tosca_bead
+(INFO    ) [14:16:38|authorization] tosca_sizing
+(INFO    ) [14:16:38|authorization] tosca_int_abaqus
+(INFO    ) [14:16:38|authorization] tosca_int_ansys
+(INFO    ) [14:16:38|authorization] tosca_int_nastran
+(INFO    ) [14:16:38|authorization] tosca_adv_nonlinear
+(INFO    ) [14:16:38|authorization] tosca_adv_durability
+(INFO    ) [14:16:38|authorization] tosca_adv_morph
+(INFO    ) [14:16:38|authorization] tosca_smooth
+(INFO    ) [14:16:38|authorization] tosca_report
+(INFO    ) [14:16:38|authorization] tfluid_topo
+(INFO    ) [14:16:38|authorization] tfluid_smooth
+(INFO    ) [14:16:38|authorization] tfluid_parallel
+(INFO    ) [14:16:38|authorization] tfluid_int_ccmp
+(INFO    ) [14:16:38|authorization] tfluid_int_fluent
+(INFO    ) [14:16:38|authorization] +----------------------------------------------------------------------------------------------------------+
+(INFO    ) [14:16:38|authorization] Requesting 5 tokens tosca_topo
+(INFO    ) [14:16:41|authorization] Received termination/interruption signal - termination application
+(INFO    ) [14:16:41|authorization] Terminating application thread started by tosca_server - child PID is 243807
+(INFO    ) [14:16:41|authorization] Execution of batch process has finished
+(INFO    ) [14:16:42|authorization] Socket listener successfully stopped
+(INFO    ) [14:17:02|authorization] TOSCA Software Suite.authorization - version 3DEXPERIENCE R2024x / 3DEXPERIENCE R2024x - build R426 - 20230927T180032Z 64 bit
+(INFO    ) [14:17:02|authorization] Setting up license management system
+(INFO    ) [14:17:02|authorization] Commandline for started application: /usr/SIMULIA/EstProducts/2024/linux_a64/tools/SMApy/python3.10/bin/python "-E" "-u" "/usr/SIMULIA/EstProducts/2024/linux_a64/code/python3.10/lib/SMATsoPyControlMain.pyc" "-j" "airbeam_vol_RDO"
+(INFO    ) [14:17:02|authorization] Waiting for batch process to finish
+(INFO    ) [14:17:02|authorization] Using DS FlexNet licensing with license file 27000@lic.rz.tuhh.de
+(INFO    ) [14:17:02|authorization] Successfully initialized FlexNet client library
+(INFO    ) [14:17:02|authorization] # Listing available licenses...
+(INFO    ) [14:17:03|authorization] +----------------------------------------------------------------------------------------------------------+
+(INFO    ) [14:17:03|authorization] |Features                                                                                                  |
+(INFO    ) [14:17:03|authorization] +----------------------------------------------------------------------------------------------------------+
+(INFO    ) [14:17:03|authorization] abaqus
+(INFO    ) [14:17:03|authorization] abaqus_extended
+(INFO    ) [14:17:03|authorization] ams
+(INFO    ) [14:17:03|authorization] aqua
+(INFO    ) [14:17:03|authorization] cosim_acusolve
+(INFO    ) [14:17:03|authorization] cosim_direct
+(INFO    ) [14:17:03|authorization] cse
+(INFO    ) [14:17:03|authorization] design
+(INFO    ) [14:17:03|authorization] euler_lagrange
+(INFO    ) [14:17:03|authorization] gpgpu
+(INFO    ) [14:17:03|authorization] multiphysics
+(INFO    ) [14:17:03|authorization] parallel
+(INFO    ) [14:17:03|authorization] sw_assoc_import
+(INFO    ) [14:17:03|authorization] catiav5_assoc_import
+(INFO    ) [14:17:03|authorization] catiav5_import
+(INFO    ) [14:17:03|authorization] catiav6_assoc_import
+(INFO    ) [14:17:03|authorization] tomee
+(INFO    ) [14:17:03|authorization] pydriver
+(INFO    ) [14:17:03|authorization] cae
+(INFO    ) [14:17:03|authorization] rtgateway
+(INFO    ) [14:17:03|authorization] gateway
+(INFO    ) [14:17:03|authorization] safe_ex_gui
+(INFO    ) [14:17:03|authorization] cfd
+(INFO    ) [14:17:03|authorization] explicit
+(INFO    ) [14:17:03|authorization] foundation
+(INFO    ) [14:17:03|authorization] simflow
+(INFO    ) [14:17:03|authorization] standard
+(INFO    ) [14:17:03|authorization] cse_token
+(INFO    ) [14:17:03|authorization] safe_ex_engine
+(INFO    ) [14:17:03|authorization] tosca_topo
+(INFO    ) [14:17:03|authorization] tosca_shape
+(INFO    ) [14:17:03|authorization] tosca_bead
+(INFO    ) [14:17:03|authorization] tosca_sizing
+(INFO    ) [14:17:03|authorization] tosca_int_abaqus
+(INFO    ) [14:17:03|authorization] tosca_int_ansys
+(INFO    ) [14:17:03|authorization] tosca_int_nastran
+(INFO    ) [14:17:03|authorization] tosca_adv_nonlinear
+(INFO    ) [14:17:03|authorization] tosca_adv_durability
+(INFO    ) [14:17:03|authorization] tosca_adv_morph
+(INFO    ) [14:17:03|authorization] tosca_smooth
+(INFO    ) [14:17:03|authorization] tosca_report
+(INFO    ) [14:17:03|authorization] tfluid_topo
+(INFO    ) [14:17:03|authorization] tfluid_smooth
+(INFO    ) [14:17:03|authorization] tfluid_parallel
+(INFO    ) [14:17:03|authorization] tfluid_int_ccmp
+(INFO    ) [14:17:03|authorization] tfluid_int_fluent
+(INFO    ) [14:17:03|authorization] +----------------------------------------------------------------------------------------------------------+
+(INFO    ) [14:17:03|authorization] Requesting 5 tokens tosca_topo
+(INFO    ) [14:17:27|authorization] Requesting 2 tokens tosca_report
+(INFO    ) [14:17:27|authorization] Execution of batch process has finished
+(INFO    ) [14:17:28|authorization] Socket listener successfully stopped
+(INFO    ) [14:19:13|authorization] TOSCA Software Suite.authorization - version 3DEXPERIENCE R2024x / 3DEXPERIENCE R2024x - build R426 - 20230927T180032Z 64 bit
+(INFO    ) [14:19:13|authorization] Setting up license management system
+(INFO    ) [14:19:13|authorization] Commandline for started application: /usr/SIMULIA/EstProducts/2024/linux_a64/tools/SMApy/python3.10/bin/python "-E" "-u" "/usr/SIMULIA/EstProducts/2024/linux_a64/code/python3.10/lib/SMATsoPyControlMain.pyc" "-j" "airbeam_vol_RDO"
+(INFO    ) [14:19:13|authorization] Waiting for batch process to finish
+(INFO    ) [14:19:14|authorization] Using DS FlexNet licensing with license file 27000@lic.rz.tuhh.de
+(INFO    ) [14:19:14|authorization] Successfully initialized FlexNet client library
+(INFO    ) [14:19:14|authorization] # Listing available licenses...
+(INFO    ) [14:19:14|authorization] +----------------------------------------------------------------------------------------------------------+
+(INFO    ) [14:19:14|authorization] |Features                                                                                                  |
+(INFO    ) [14:19:14|authorization] +----------------------------------------------------------------------------------------------------------+
+(INFO    ) [14:19:14|authorization] abaqus
+(INFO    ) [14:19:14|authorization] abaqus_extended
+(INFO    ) [14:19:14|authorization] ams
+(INFO    ) [14:19:14|authorization] aqua
+(INFO    ) [14:19:14|authorization] cosim_acusolve
+(INFO    ) [14:19:14|authorization] cosim_direct
+(INFO    ) [14:19:14|authorization] cse
+(INFO    ) [14:19:14|authorization] design
+(INFO    ) [14:19:14|authorization] euler_lagrange
+(INFO    ) [14:19:14|authorization] gpgpu
+(INFO    ) [14:19:14|authorization] multiphysics
+(INFO    ) [14:19:14|authorization] parallel
+(INFO    ) [14:19:14|authorization] sw_assoc_import
+(INFO    ) [14:19:14|authorization] catiav5_assoc_import
+(INFO    ) [14:19:14|authorization] catiav5_import
+(INFO    ) [14:19:14|authorization] catiav6_assoc_import
+(INFO    ) [14:19:14|authorization] tomee
+(INFO    ) [14:19:14|authorization] pydriver
+(INFO    ) [14:19:14|authorization] cae
+(INFO    ) [14:19:14|authorization] rtgateway
+(INFO    ) [14:19:14|authorization] gateway
+(INFO    ) [14:19:14|authorization] safe_ex_gui
+(INFO    ) [14:19:14|authorization] cfd
+(INFO    ) [14:19:14|authorization] explicit
+(INFO    ) [14:19:14|authorization] foundation
+(INFO    ) [14:19:14|authorization] simflow
+(INFO    ) [14:19:14|authorization] standard
+(INFO    ) [14:19:14|authorization] cse_token
+(INFO    ) [14:19:14|authorization] safe_ex_engine
+(INFO    ) [14:19:14|authorization] tosca_topo
+(INFO    ) [14:19:14|authorization] tosca_shape
+(INFO    ) [14:19:14|authorization] tosca_bead
+(INFO    ) [14:19:14|authorization] tosca_sizing
+(INFO    ) [14:19:14|authorization] tosca_int_abaqus
+(INFO    ) [14:19:14|authorization] tosca_int_ansys
+(INFO    ) [14:19:14|authorization] tosca_int_nastran
+(INFO    ) [14:19:14|authorization] tosca_adv_nonlinear
+(INFO    ) [14:19:14|authorization] tosca_adv_durability
+(INFO    ) [14:19:14|authorization] tosca_adv_morph
+(INFO    ) [14:19:14|authorization] tosca_smooth
+(INFO    ) [14:19:14|authorization] tosca_report
+(INFO    ) [14:19:14|authorization] tfluid_topo
+(INFO    ) [14:19:14|authorization] tfluid_smooth
+(INFO    ) [14:19:14|authorization] tfluid_parallel
+(INFO    ) [14:19:14|authorization] tfluid_int_ccmp
+(INFO    ) [14:19:14|authorization] tfluid_int_fluent
+(INFO    ) [14:19:14|authorization] +----------------------------------------------------------------------------------------------------------+
+(INFO    ) [14:19:14|authorization] Requesting 5 tokens tosca_topo
+(INFO    ) [14:19:38|authorization] Requesting 2 tokens tosca_report
+(INFO    ) [14:19:38|authorization] Execution of batch process has finished
+(INFO    ) [14:19:39|authorization] Socket listener successfully stopped
+(INFO    ) [14:19:52|authorization] TOSCA Software Suite.authorization - version 3DEXPERIENCE R2024x / 3DEXPERIENCE R2024x - build R426 - 20230927T180032Z 64 bit
+(INFO    ) [14:19:53|authorization] Setting up license management system
+(INFO    ) [14:19:53|authorization] Commandline for started application: /usr/SIMULIA/EstProducts/2024/linux_a64/tools/SMApy/python3.10/bin/python "-E" "-u" "/usr/SIMULIA/EstProducts/2024/linux_a64/code/python3.10/lib/SMATsoPyControlMain.pyc" "-j" "airbeam_vol_RDO"
+(INFO    ) [14:19:53|authorization] Waiting for batch process to finish
+(INFO    ) [14:19:53|authorization] Using DS FlexNet licensing with license file 27000@lic.rz.tuhh.de
+(INFO    ) [14:19:53|authorization] Successfully initialized FlexNet client library
+(INFO    ) [14:19:53|authorization] # Listing available licenses...
+(INFO    ) [14:19:53|authorization] +----------------------------------------------------------------------------------------------------------+
+(INFO    ) [14:19:53|authorization] |Features                                                                                                  |
+(INFO    ) [14:19:53|authorization] +----------------------------------------------------------------------------------------------------------+
+(INFO    ) [14:19:53|authorization] abaqus
+(INFO    ) [14:19:53|authorization] abaqus_extended
+(INFO    ) [14:19:53|authorization] ams
+(INFO    ) [14:19:53|authorization] aqua
+(INFO    ) [14:19:53|authorization] cosim_acusolve
+(INFO    ) [14:19:53|authorization] cosim_direct
+(INFO    ) [14:19:53|authorization] cse
+(INFO    ) [14:19:53|authorization] design
+(INFO    ) [14:19:53|authorization] euler_lagrange
+(INFO    ) [14:19:53|authorization] gpgpu
+(INFO    ) [14:19:53|authorization] multiphysics
+(INFO    ) [14:19:53|authorization] parallel
+(INFO    ) [14:19:53|authorization] sw_assoc_import
+(INFO    ) [14:19:53|authorization] catiav5_assoc_import
+(INFO    ) [14:19:53|authorization] catiav5_import
+(INFO    ) [14:19:53|authorization] catiav6_assoc_import
+(INFO    ) [14:19:53|authorization] tomee
+(INFO    ) [14:19:53|authorization] pydriver
+(INFO    ) [14:19:53|authorization] cae
+(INFO    ) [14:19:53|authorization] rtgateway
+(INFO    ) [14:19:53|authorization] gateway
+(INFO    ) [14:19:53|authorization] safe_ex_gui
+(INFO    ) [14:19:53|authorization] cfd
+(INFO    ) [14:19:53|authorization] explicit
+(INFO    ) [14:19:53|authorization] foundation
+(INFO    ) [14:19:53|authorization] simflow
+(INFO    ) [14:19:53|authorization] standard
+(INFO    ) [14:19:53|authorization] cse_token
+(INFO    ) [14:19:53|authorization] safe_ex_engine
+(INFO    ) [14:19:53|authorization] tosca_topo
+(INFO    ) [14:19:53|authorization] tosca_shape
+(INFO    ) [14:19:53|authorization] tosca_bead
+(INFO    ) [14:19:53|authorization] tosca_sizing
+(INFO    ) [14:19:53|authorization] tosca_int_abaqus
+(INFO    ) [14:19:53|authorization] tosca_int_ansys
+(INFO    ) [14:19:53|authorization] tosca_int_nastran
+(INFO    ) [14:19:53|authorization] tosca_adv_nonlinear
+(INFO    ) [14:19:53|authorization] tosca_adv_durability
+(INFO    ) [14:19:53|authorization] tosca_adv_morph
+(INFO    ) [14:19:53|authorization] tosca_smooth
+(INFO    ) [14:19:53|authorization] tosca_report
+(INFO    ) [14:19:53|authorization] tfluid_topo
+(INFO    ) [14:19:53|authorization] tfluid_smooth
+(INFO    ) [14:19:53|authorization] tfluid_parallel
+(INFO    ) [14:19:53|authorization] tfluid_int_ccmp
+(INFO    ) [14:19:53|authorization] tfluid_int_fluent
+(INFO    ) [14:19:53|authorization] +----------------------------------------------------------------------------------------------------------+
+(INFO    ) [14:19:53|authorization] Requesting 5 tokens tosca_topo
+(INFO    ) [14:41:03|authorization] Requesting 2 tokens tosca_report
+(INFO    ) [14:41:04|authorization] Execution of batch process has finished
+(INFO    ) [14:41:05|authorization] Socket listener successfully stopped
+(INFO    ) [14:45:01|authorization] TOSCA Software Suite.authorization - version 3DEXPERIENCE R2024x / 3DEXPERIENCE R2024x - build R426 - 20230927T180032Z 64 bit
+(INFO    ) [14:45:01|authorization] Setting up license management system
+(INFO    ) [14:45:01|authorization] Commandline for started application: /usr/SIMULIA/EstProducts/2024/linux_a64/tools/SMApy/python3.10/bin/python "-E" "-u" "/usr/SIMULIA/EstProducts/2024/linux_a64/code/python3.10/lib/SMATsoPyControlMain.pyc" "-j" "airbeam_vol_RDO"
+(INFO    ) [14:45:01|authorization] Waiting for batch process to finish
+(INFO    ) [14:45:01|authorization] Using DS FlexNet licensing with license file 27000@lic.rz.tuhh.de
+(INFO    ) [14:45:01|authorization] Successfully initialized FlexNet client library
+(INFO    ) [14:45:01|authorization] # Listing available licenses...
+(INFO    ) [14:45:01|authorization] +----------------------------------------------------------------------------------------------------------+
+(INFO    ) [14:45:01|authorization] |Features                                                                                                  |
+(INFO    ) [14:45:01|authorization] +----------------------------------------------------------------------------------------------------------+
+(INFO    ) [14:45:01|authorization] abaqus
+(INFO    ) [14:45:01|authorization] abaqus_extended
+(INFO    ) [14:45:01|authorization] ams
+(INFO    ) [14:45:01|authorization] aqua
+(INFO    ) [14:45:01|authorization] cosim_acusolve
+(INFO    ) [14:45:01|authorization] cosim_direct
+(INFO    ) [14:45:01|authorization] cse
+(INFO    ) [14:45:01|authorization] design
+(INFO    ) [14:45:01|authorization] euler_lagrange
+(INFO    ) [14:45:01|authorization] gpgpu
+(INFO    ) [14:45:01|authorization] multiphysics
+(INFO    ) [14:45:01|authorization] parallel
+(INFO    ) [14:45:01|authorization] sw_assoc_import
+(INFO    ) [14:45:01|authorization] catiav5_assoc_import
+(INFO    ) [14:45:01|authorization] catiav5_import
+(INFO    ) [14:45:01|authorization] catiav6_assoc_import
+(INFO    ) [14:45:01|authorization] tomee
+(INFO    ) [14:45:01|authorization] pydriver
+(INFO    ) [14:45:01|authorization] cae
+(INFO    ) [14:45:01|authorization] rtgateway
+(INFO    ) [14:45:01|authorization] gateway
+(INFO    ) [14:45:01|authorization] safe_ex_gui
+(INFO    ) [14:45:01|authorization] cfd
+(INFO    ) [14:45:01|authorization] explicit
+(INFO    ) [14:45:01|authorization] foundation
+(INFO    ) [14:45:01|authorization] simflow
+(INFO    ) [14:45:01|authorization] standard
+(INFO    ) [14:45:01|authorization] cse_token
+(INFO    ) [14:45:01|authorization] safe_ex_engine
+(INFO    ) [14:45:01|authorization] tosca_topo
+(INFO    ) [14:45:01|authorization] tosca_shape
+(INFO    ) [14:45:01|authorization] tosca_bead
+(INFO    ) [14:45:01|authorization] tosca_sizing
+(INFO    ) [14:45:01|authorization] tosca_int_abaqus
+(INFO    ) [14:45:01|authorization] tosca_int_ansys
+(INFO    ) [14:45:01|authorization] tosca_int_nastran
+(INFO    ) [14:45:01|authorization] tosca_adv_nonlinear
+(INFO    ) [14:45:01|authorization] tosca_adv_durability
+(INFO    ) [14:45:01|authorization] tosca_adv_morph
+(INFO    ) [14:45:01|authorization] tosca_smooth
+(INFO    ) [14:45:01|authorization] tosca_report
+(INFO    ) [14:45:01|authorization] tfluid_topo
+(INFO    ) [14:45:01|authorization] tfluid_smooth
+(INFO    ) [14:45:01|authorization] tfluid_parallel
+(INFO    ) [14:45:01|authorization] tfluid_int_ccmp
+(INFO    ) [14:45:01|authorization] tfluid_int_fluent
+(INFO    ) [14:45:01|authorization] +----------------------------------------------------------------------------------------------------------+
+(INFO    ) [14:45:01|authorization] Requesting 5 tokens tosca_topo
+(INFO    ) [14:45:26|authorization] Requesting 2 tokens tosca_report
+(INFO    ) [14:45:26|authorization] Execution of batch process has finished
+(INFO    ) [14:45:27|authorization] Socket listener successfully stopped
+(INFO    ) [14:47:40|authorization] TOSCA Software Suite.authorization - version 3DEXPERIENCE R2024x / 3DEXPERIENCE R2024x - build R426 - 20230927T180032Z 64 bit
+(INFO    ) [14:47:40|authorization] Setting up license management system
+(INFO    ) [14:47:40|authorization] Commandline for started application: /usr/SIMULIA/EstProducts/2024/linux_a64/tools/SMApy/python3.10/bin/python "-E" "-u" "/usr/SIMULIA/EstProducts/2024/linux_a64/code/python3.10/lib/SMATsoPyControlMain.pyc" "-j" "airbeam_vol_RDO"
+(INFO    ) [14:47:40|authorization] Waiting for batch process to finish
+(INFO    ) [14:47:40|authorization] Using DS FlexNet licensing with license file 27000@lic.rz.tuhh.de
+(INFO    ) [14:47:40|authorization] Successfully initialized FlexNet client library
+(INFO    ) [14:47:40|authorization] # Listing available licenses...
+(INFO    ) [14:47:40|authorization] +----------------------------------------------------------------------------------------------------------+
+(INFO    ) [14:47:40|authorization] |Features                                                                                                  |
+(INFO    ) [14:47:40|authorization] +----------------------------------------------------------------------------------------------------------+
+(INFO    ) [14:47:40|authorization] abaqus
+(INFO    ) [14:47:40|authorization] abaqus_extended
+(INFO    ) [14:47:40|authorization] ams
+(INFO    ) [14:47:40|authorization] aqua
+(INFO    ) [14:47:40|authorization] cosim_acusolve
+(INFO    ) [14:47:40|authorization] cosim_direct
+(INFO    ) [14:47:40|authorization] cse
+(INFO    ) [14:47:40|authorization] design
+(INFO    ) [14:47:40|authorization] euler_lagrange
+(INFO    ) [14:47:40|authorization] gpgpu
+(INFO    ) [14:47:40|authorization] multiphysics
+(INFO    ) [14:47:40|authorization] parallel
+(INFO    ) [14:47:40|authorization] sw_assoc_import
+(INFO    ) [14:47:40|authorization] catiav5_assoc_import
+(INFO    ) [14:47:40|authorization] catiav5_import
+(INFO    ) [14:47:40|authorization] catiav6_assoc_import
+(INFO    ) [14:47:40|authorization] tomee
+(INFO    ) [14:47:40|authorization] pydriver
+(INFO    ) [14:47:40|authorization] cae
+(INFO    ) [14:47:40|authorization] rtgateway
+(INFO    ) [14:47:40|authorization] gateway
+(INFO    ) [14:47:40|authorization] safe_ex_gui
+(INFO    ) [14:47:40|authorization] cfd
+(INFO    ) [14:47:40|authorization] explicit
+(INFO    ) [14:47:40|authorization] foundation
+(INFO    ) [14:47:40|authorization] simflow
+(INFO    ) [14:47:40|authorization] standard
+(INFO    ) [14:47:40|authorization] cse_token
+(INFO    ) [14:47:40|authorization] safe_ex_engine
+(INFO    ) [14:47:40|authorization] tosca_topo
+(INFO    ) [14:47:40|authorization] tosca_shape
+(INFO    ) [14:47:40|authorization] tosca_bead
+(INFO    ) [14:47:40|authorization] tosca_sizing
+(INFO    ) [14:47:40|authorization] tosca_int_abaqus
+(INFO    ) [14:47:40|authorization] tosca_int_ansys
+(INFO    ) [14:47:40|authorization] tosca_int_nastran
+(INFO    ) [14:47:40|authorization] tosca_adv_nonlinear
+(INFO    ) [14:47:40|authorization] tosca_adv_durability
+(INFO    ) [14:47:40|authorization] tosca_adv_morph
+(INFO    ) [14:47:40|authorization] tosca_smooth
+(INFO    ) [14:47:40|authorization] tosca_report
+(INFO    ) [14:47:40|authorization] tfluid_topo
+(INFO    ) [14:47:40|authorization] tfluid_smooth
+(INFO    ) [14:47:40|authorization] tfluid_parallel
+(INFO    ) [14:47:40|authorization] tfluid_int_ccmp
+(INFO    ) [14:47:40|authorization] tfluid_int_fluent
+(INFO    ) [14:47:40|authorization] +----------------------------------------------------------------------------------------------------------+
+(INFO    ) [14:47:40|authorization] Requesting 5 tokens tosca_topo
+(INFO    ) [14:48:05|authorization] Requesting 2 tokens tosca_report
+(INFO    ) [14:48:05|authorization] Execution of batch process has finished
+(INFO    ) [14:48:06|authorization] Socket listener successfully stopped
+(INFO    ) [14:49:33|authorization] TOSCA Software Suite.authorization - version 3DEXPERIENCE R2024x / 3DEXPERIENCE R2024x - build R426 - 20230927T180032Z 64 bit
+(INFO    ) [14:49:33|authorization] Setting up license management system
+(INFO    ) [14:49:33|authorization] Commandline for started application: /usr/SIMULIA/EstProducts/2024/linux_a64/tools/SMApy/python3.10/bin/python "-E" "-u" "/usr/SIMULIA/EstProducts/2024/linux_a64/code/python3.10/lib/SMATsoPyControlMain.pyc" "-j" "airbeam_vol_RDO"
+(INFO    ) [14:49:33|authorization] Waiting for batch process to finish
+(INFO    ) [14:49:33|authorization] Using DS FlexNet licensing with license file 27000@lic.rz.tuhh.de
+(INFO    ) [14:49:33|authorization] Successfully initialized FlexNet client library
+(INFO    ) [14:49:33|authorization] # Listing available licenses...
+(INFO    ) [14:49:34|authorization] +----------------------------------------------------------------------------------------------------------+
+(INFO    ) [14:49:34|authorization] |Features                                                                                                  |
+(INFO    ) [14:49:34|authorization] +----------------------------------------------------------------------------------------------------------+
+(INFO    ) [14:49:34|authorization] abaqus
+(INFO    ) [14:49:34|authorization] abaqus_extended
+(INFO    ) [14:49:34|authorization] ams
+(INFO    ) [14:49:34|authorization] aqua
+(INFO    ) [14:49:34|authorization] cosim_acusolve
+(INFO    ) [14:49:34|authorization] cosim_direct
+(INFO    ) [14:49:34|authorization] cse
+(INFO    ) [14:49:34|authorization] design
+(INFO    ) [14:49:34|authorization] euler_lagrange
+(INFO    ) [14:49:34|authorization] gpgpu
+(INFO    ) [14:49:34|authorization] multiphysics
+(INFO    ) [14:49:34|authorization] parallel
+(INFO    ) [14:49:34|authorization] sw_assoc_import
+(INFO    ) [14:49:34|authorization] catiav5_assoc_import
+(INFO    ) [14:49:34|authorization] catiav5_import
+(INFO    ) [14:49:34|authorization] catiav6_assoc_import
+(INFO    ) [14:49:34|authorization] tomee
+(INFO    ) [14:49:34|authorization] pydriver
+(INFO    ) [14:49:34|authorization] cae
+(INFO    ) [14:49:34|authorization] rtgateway
+(INFO    ) [14:49:34|authorization] gateway
+(INFO    ) [14:49:34|authorization] safe_ex_gui
+(INFO    ) [14:49:34|authorization] cfd
+(INFO    ) [14:49:34|authorization] explicit
+(INFO    ) [14:49:34|authorization] foundation
+(INFO    ) [14:49:34|authorization] simflow
+(INFO    ) [14:49:34|authorization] standard
+(INFO    ) [14:49:34|authorization] cse_token
+(INFO    ) [14:49:34|authorization] safe_ex_engine
+(INFO    ) [14:49:34|authorization] tosca_topo
+(INFO    ) [14:49:34|authorization] tosca_shape
+(INFO    ) [14:49:34|authorization] tosca_bead
+(INFO    ) [14:49:34|authorization] tosca_sizing
+(INFO    ) [14:49:34|authorization] tosca_int_abaqus
+(INFO    ) [14:49:34|authorization] tosca_int_ansys
+(INFO    ) [14:49:34|authorization] tosca_int_nastran
+(INFO    ) [14:49:34|authorization] tosca_adv_nonlinear
+(INFO    ) [14:49:34|authorization] tosca_adv_durability
+(INFO    ) [14:49:34|authorization] tosca_adv_morph
+(INFO    ) [14:49:34|authorization] tosca_smooth
+(INFO    ) [14:49:34|authorization] tosca_report
+(INFO    ) [14:49:34|authorization] tfluid_topo
+(INFO    ) [14:49:34|authorization] tfluid_smooth
+(INFO    ) [14:49:34|authorization] tfluid_parallel
+(INFO    ) [14:49:34|authorization] tfluid_int_ccmp
+(INFO    ) [14:49:34|authorization] tfluid_int_fluent
+(INFO    ) [14:49:34|authorization] +----------------------------------------------------------------------------------------------------------+
+(INFO    ) [14:49:34|authorization] Requesting 5 tokens tosca_topo
+(INFO    ) [14:49:58|authorization] Requesting 2 tokens tosca_report
+(INFO    ) [14:49:58|authorization] Execution of batch process has finished
+(INFO    ) [14:49:59|authorization] Socket listener successfully stopped
+(INFO    ) [15:31:00|authorization] TOSCA Software Suite.authorization - version 3DEXPERIENCE R2024x / 3DEXPERIENCE R2024x - build R426 - 20230927T180032Z 64 bit
+(INFO    ) [15:31:00|authorization] Setting up license management system
+(INFO    ) [15:31:00|authorization] Commandline for started application: C:\Programs\Simulia\EstProducts\2024\win_b64\tools\SMApy\python3.10\python.exe "-E" "-u" "C:\Programs\Simulia\EstProducts\2024\win_b64\code\python3.10\lib\SMATsoPyControlMain.pyc" "-j" ".\airbeam_vol_RDO.par"
+(INFO    ) [15:31:00|authorization] Waiting for batch process to finish
+(INFO    ) [15:31:03|authorization] Using DS FlexNet licensing with license file 27000@lic.rz.tuhh.de
+(INFO    ) [15:31:03|authorization] Successfully initialized FlexNet client library
+(INFO    ) [15:31:03|authorization] # Listing available licenses...
+(INFO    ) [15:31:03|authorization] +----------------------------------------------------------------------------------------------------------+
+(INFO    ) [15:31:03|authorization] |Features                                                                                                  |
+(INFO    ) [15:31:03|authorization] +----------------------------------------------------------------------------------------------------------+
+(INFO    ) [15:31:03|authorization] abaqus
+(INFO    ) [15:31:03|authorization] abaqus_extended
+(INFO    ) [15:31:03|authorization] ams
+(INFO    ) [15:31:03|authorization] aqua
+(INFO    ) [15:31:03|authorization] cosim_acusolve
+(INFO    ) [15:31:03|authorization] cosim_direct
+(INFO    ) [15:31:03|authorization] cse
+(INFO    ) [15:31:03|authorization] design
+(INFO    ) [15:31:03|authorization] euler_lagrange
+(INFO    ) [15:31:03|authorization] gpgpu
+(INFO    ) [15:31:03|authorization] multiphysics
+(INFO    ) [15:31:03|authorization] parallel
+(INFO    ) [15:31:03|authorization] sw_assoc_import
+(INFO    ) [15:31:03|authorization] catiav5_assoc_import
+(INFO    ) [15:31:03|authorization] catiav5_import
+(INFO    ) [15:31:03|authorization] catiav6_assoc_import
+(INFO    ) [15:31:03|authorization] tomee
+(INFO    ) [15:31:03|authorization] pydriver
+(INFO    ) [15:31:03|authorization] cae
+(INFO    ) [15:31:03|authorization] rtgateway
+(INFO    ) [15:31:03|authorization] gateway
+(INFO    ) [15:31:03|authorization] safe_ex_gui
+(INFO    ) [15:31:03|authorization] cfd
+(INFO    ) [15:31:03|authorization] explicit
+(INFO    ) [15:31:03|authorization] foundation
+(INFO    ) [15:31:03|authorization] simflow
+(INFO    ) [15:31:03|authorization] standard
+(INFO    ) [15:31:03|authorization] cse_token
+(INFO    ) [15:31:03|authorization] safe_ex_engine
+(INFO    ) [15:31:03|authorization] tosca_topo
+(INFO    ) [15:31:03|authorization] tosca_shape
+(INFO    ) [15:31:03|authorization] tosca_bead
+(INFO    ) [15:31:03|authorization] tosca_sizing
+(INFO    ) [15:31:03|authorization] tosca_int_abaqus
+(INFO    ) [15:31:03|authorization] tosca_int_ansys
+(INFO    ) [15:31:03|authorization] tosca_int_nastran
+(INFO    ) [15:31:03|authorization] tosca_adv_nonlinear
+(INFO    ) [15:31:03|authorization] tosca_adv_durability
+(INFO    ) [15:31:03|authorization] tosca_adv_morph
+(INFO    ) [15:31:03|authorization] tosca_smooth
+(INFO    ) [15:31:03|authorization] tosca_report
+(INFO    ) [15:31:03|authorization] tfluid_topo
+(INFO    ) [15:31:03|authorization] tfluid_smooth
+(INFO    ) [15:31:03|authorization] tfluid_parallel
+(INFO    ) [15:31:03|authorization] tfluid_int_ccmp
+(INFO    ) [15:31:03|authorization] tfluid_int_fluent
+(INFO    ) [15:31:03|authorization] +----------------------------------------------------------------------------------------------------------+
+(INFO    ) [15:31:03|authorization] Requesting 5 tokens tosca_topo
+(INFO    ) [15:31:55|authorization] Requesting 2 tokens tosca_report
+(INFO    ) [15:31:55|authorization] Execution of batch process has finished
+(INFO    ) [15:31:55|authorization] Socket listener successfully stopped

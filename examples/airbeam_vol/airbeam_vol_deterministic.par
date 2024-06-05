@@ -1,0 +1,99 @@
+FEM_INPUT
+  ID_NAME                = OPTIMIZATION_MODEL
+  FILE                   = airbeam_vol.inp
+END_
+
+DV_TOPO
+  ID_NAME                = design_variables
+  EL_GROUP               = ALL_ELEMENTS
+END_
+
+DVCON_TOPO
+  ID_NAME                = dvcon_frozen
+  EL_GROUP               = frozen_elements
+  CHECK_TYPE             = FROZEN
+END_
+
+DRESP
+  ID_NAME                = DRESP_SUM_ENERGY
+  DEF_TYPE               = SYSTEM
+  TYPE                   = STRAIN_ENERGY
+  UPDATE                 = EVER
+  EL_GROUP               = ALL_ELEMENTS
+  GROUP_OPER             = SUM
+END_
+
+DRESP
+  ID_NAME                = DRESP_VOL_TOPO
+  DEF_TYPE               = SYSTEM
+  TYPE                   = VOLUME
+  UPDATE                 = EVER
+  EL_GROUP               = ALL_ELEMENTS
+  GROUP_OPER             = SUM
+END_
+
+DRESP
+  ID_NAME                = DRESP_DISP1_ABS_MAX
+  TYPE                   = DISP_Y_ABS
+  DEF_TYPE               = SYSTEM
+  NODE                   = 110
+END_
+
+OBJ_FUNC
+  ID_NAME                = min_vol
+  DRESP                  = DRESP_VOL_TOPO
+  TARGET                 = MIN
+END_
+
+CONSTRAINT
+  ID_NAME                = DISP_constraint
+  DRESP                  = DRESP_DISP1_ABS_MAX
+  MAGNITUDE              = ABS
+  LE_VALUE               = 0.06
+END_
+
+OPTIMIZE
+  ID_NAME                = topology_optimization
+  DV                     = design_variables
+  OBJ_FUNC               = min_vol
+  DVCON                  = dvcon_frozen
+  CONSTRAINT             = DISP_constraint
+  STRATEGY               = TOPO_SENSITIVITY
+END_
+
+OPT_PARAM
+  ID_NAME                = OPT_PARAMS
+  OPTIMIZE               = TOPOLOGY_OPTIMIZATION
+  FILTER_RADIUS          = 2.5
+END_
+
+STOP
+  ID_NAME                = global_stop
+  ITER_MAX               = 80
+END_
+
+SMOOTH
+  id_name                = VOLUME_SMOOTHING_0_4
+  task                   = iso
+  target_volume          = 0.4
+  SELF_INTERSECTION_CHECK = runtime
+  smooth_cycles          = 10
+  reduction_rate         = 60
+  reduction_angle        = 5.0
+  format                 = vtf
+  format                 = stl
+  format                 = onf
+END_
+
+SMOOTH
+  id_name                = ISO_SMOOTHING_0_3
+  task                   = iso
+  iso_value              = 0.3
+  SELF_INTERSECTION_CHECK = runtime
+  smooth_cycles          = 10
+  reduction_rate         = 60
+  reduction_angle        = 5.0
+  format                 = vtf
+  format                 = stl
+  format                 = onf
+END_
